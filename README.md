@@ -1,2 +1,2 @@
 # ExpositionRepository
-Repositorio para muestra de código en C++ y Pytthon
+Repositorio para muestra de código en C++ y Python
