@@ -1,0 +1,8 @@
+simulations/0_data.sim statistics of 10000 matches:
+
+Wins freq ->  7599 / 1817 / 449 / 135 / 
+Wins freq:10000 ->  0.7599 / 0.1817 / 0.0449 / 0.0135 / 
+
+Zeros freq ->  0 / 14 / 130 / 606 / 
+Zeros freq:10000 ->  0 / 0.0014 / 0.013 / 0.0606 / 
+

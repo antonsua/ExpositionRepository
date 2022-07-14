@@ -1,0 +1,232 @@
+{
+    "BoardState": {
+        "idName_": "Board",
+        "numPlayers_": 4,
+        "numSquares_": 64,
+        "_FIRST_ROUND_": 1,
+        "_ROLLS_PER_ROUND_": 10,
+        "_LAST_ROUND_": 6,
+        "outWorldPos_": 1,
+        "outWorldVel_": {
+            "x": 8,
+            "y": 0
+        },
+        "startMsgWtimes_": 0.95,
+        "startMsgHtimes_": 0.5,
+        "startMsgWaveReps_": 6,
+        "startMsgWaveTime_": 800,
+        "startMsgWaveMin_": 0.6,
+        "startMsgWaveMax_": 1,
+        "topLeftRoundCounter_": {
+            "x": 550,
+            "y": 460
+        },
+        "roundCounterW_": 150,
+        "roundCounterH_": 30
+    },
+    "BoardPlayersManager": {
+        "playerWidth_": 85,
+        "playerHeight_": 70,
+        "boardVerticalGap_": 25,
+        "topLeftBoardCorner_": {
+            "x": 625,
+            "y": 50
+        },
+        "playerHeadScale_": {
+            "x": 1,
+            "y": 1
+        },
+        "playerHeadOffset_": {
+            "x": 0,
+            "y": 0
+        },
+        "pointsTextScale_": {
+            "x": 0.75,
+            "y": 0.5
+        },
+        "pointsTextOffset_": {
+            "x": 85,
+            "y": 0
+        },
+        "pointsEventsTextScale_": {
+            "x": 0.45,
+            "y": 0.30
+        },
+        "pointsEventsTextOffset_": {
+            "x": 180,
+            "y": -30
+        },
+        "pointsEventsInternOffset_": {
+            "x": 0,
+            "y": 21
+        },
+        "pointsShowUpScale_": 1.05,
+        "pointsShowUpOffset_": 1.20,
+        "playerQueuedScaleX_": 1.5,
+        "playerQueuedScaleY_": 1.1,
+        "playerQueuedOffset_": {
+            "x": 70,
+            "y": 0
+        },
+        "playerQueuedBoardCorner_": {
+            "x": 400,
+            "y": 500
+        },
+        "bubbleOffset_": {
+            "x": 50,
+            "y": -50
+        },
+        "bubbleScale_": {
+            "x": 1.5,
+            "y": 1.25
+        },
+        "showUpOffset_": {
+            "x": -110,
+            "y": 0
+        },
+        "showUpScale_": {
+            "x": 1.3,
+            "y": 1.3
+        },
+        "showUpDelay_": 400,
+        "playerInitialNumber_": 1,
+        "playerInitialPoints_": 0,
+        "playerPointsMinDigits_": 3,
+        "playerPointsEventsFadeTime_": 1400,
+        "playerUpdatePositionsTime_": 900,
+        "spinnerMsgFade_": 2000,
+        "spinnerAnimTimes_": 4
+    },
+    "BoardSquaresManager": {
+        "sumPointsIfOwner_": 0,
+        "": "false = 0, true = 1",
+        "squaresWidth_": 60,
+        "squaresHeight_": 60,
+        "squareTextScale_": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "squareTextOffset_": {
+            "x": 0,
+            "y": 0
+        },
+        "horizontalGap_": 4,
+        "verticalGap_": 3,
+        "squaresInitialNumber_": 1,
+        "cols_": 8,
+        "topLeftBoardCorner_": {
+            "x": 15,
+            "y": 20
+        },
+        "squareMinDigits_": 2,
+        "hexTiled_": 1,
+        "horizontalHexGap_": -5,
+        "verticalHexGap_": -10
+    },
+    "BoardDicesManager": {
+        "dicesWidth_": 75,
+        "dicesHeight_": 70,
+        "boardHorizGap_": 30,
+        "topLeftBoardCorner_": {
+            "x": 50,
+            "y": 500
+        },
+        "msgText_": "Select number of bees:",
+        "msgTextScale_": {
+            "x": 2,
+            "y": 0.75
+        },
+        "msgTextOffset_": {
+            "x": 25,
+            "y": -20
+        },
+        "rollsTextScaleX_": 0.50,
+        "rollsTextScaleY_": 0.50,
+        "rollsTextOffset_": {
+            "x": 0,
+            "y": 0
+        },
+        "diceValues_": [
+            4,
+            3,
+            2,
+            1
+        ],
+        "rollsMinDigits_": 1
+    },
+    "BoardBeesManager": {
+        "beesWidth_": 60,
+        "beesHeight_": 60,
+        "beesDir_": {
+            "x": 0,
+            "y": -1
+        },
+        "beesTime_": 2500,
+        "complexMove_": 0,
+        "beesRepMin_": 2,
+        "beesRepMax_": 3,
+        "beesRotMin_": 20,
+        "beesRotMax_": 70,
+        "beesDisMin_": 90,
+        "beesDisMax_": 270,
+        "spawnPoint_": {
+            "x": 100,
+            "y": 100
+        },
+        "topLeftCorner_": {
+            "x": 10,
+            "y": 10
+        },
+        "botRightCorner_": {
+            "x": 450,
+            "y": 450
+        },
+        "bubbleOffset_": {
+            "x": 50,
+            "y": -50
+        },
+        "bubbleScale_": {
+            "x": 1.5,
+            "y": 1.25
+        },
+        "resizeScale_": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "resizeTime_": 400,
+        "lastMovesMargin_": 50
+    },
+    "Spinner": {
+        "endSpeed_": {
+            "x": 8,
+            "y": 0
+        },
+        "miniPlayersOffset_": {
+            "x": 150,
+            "y": 0
+        },
+        "miniPlayerY_": 400,
+        "miniPlayerW_": 120,
+        "miniPlayerH_": 160,
+        "msgY_": 25,
+        "msgWaveMin_": 0.75,
+        "msgWaveMax_": 1,
+        "msgWaveTime_": 500,
+        "miniplayersScaleTime_": 3000,
+        "miniplayersScaleEnd_": {
+            "x": 1.25,
+            "y": 1.25
+        }
+    },
+    "SpinnerManager": {
+        "baseTime": 2000,
+        "speedReductionFactor": 0.8,
+        "repetitionsMin": 6,
+        "repetitionsMax": 10,
+        "spinY": 180,
+        "spinH": 150,
+        "spinW": 180,
+        "bgWtimesSpin": 4,
+        "bgHtimesSpin": 1.1
+    }
+}

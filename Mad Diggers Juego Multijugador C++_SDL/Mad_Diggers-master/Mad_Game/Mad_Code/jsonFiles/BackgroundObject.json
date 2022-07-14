@@ -1,0 +1,16 @@
+{
+    "REDUCTION_FACTOR": 0.5,
+    "MINIMUM_SIZE_2P": 200,
+    "MINIMUM_SIZE_4P": 260,
+
+    "width": 530,
+    "height": 530,
+
+    "xOffset": 135,
+    "yOffset": 35,
+
+    "circle": {
+        "x": 377,
+        "y": 276
+    }
+}

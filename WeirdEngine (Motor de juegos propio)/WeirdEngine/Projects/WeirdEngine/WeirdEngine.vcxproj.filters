@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Component.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Container.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\EntityC.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\FactoriesGestor.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\FactoryRegister.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\InputComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Observer.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\PhysicsComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\RenderComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\TestComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\TransformComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Vector3.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Vector4.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\WEManager.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Scene.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\TimeManager.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\weirdTimer.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\AttachCameraToEntComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\AddCameraToSceneComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\RotateInputComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\SoundComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Component.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\ComponentFactory.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Container.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\C_Factory.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\EntityC.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\FactoriesGestor.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\FactoryRegister.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\InputComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Messages_decl.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Messages_defs.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Observer.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\PhysicsComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\RenderComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\TestComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\TransformComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Utilities\Vector3.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Utilities\Vector4.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\WEManager.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Scene.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\TimeManager.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\weirdTimer.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\AttachCameraToEntComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\AddCameraToSceneComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\RotateInputComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\SoundComponent.h" />
+  </ItemGroup>
+</Project>

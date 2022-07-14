@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Activable.h" />
+    <ClInclude Include="AnimationRenderer.h" />
+    <ClInclude Include="Apple.h" />
+    <ClInclude Include="AppleController.h" />
+    <ClInclude Include="AppleMiniGame.h" />
+    <ClInclude Include="ApplePlayer.h" />
+    <ClInclude Include="ApplePlayerController.h" />
+    <ClInclude Include="ApplesManager.h" />
+    <ClInclude Include="AppleTimer.h" />
+    <ClInclude Include="AppleTree.h" />
+    <ClInclude Include="AxisInputComponent.h" />
+    <ClInclude Include="BackgroundObject.h" />
+    <ClInclude Include="BallPhysicsComponent.h" />
+    <ClInclude Include="ballPong.h" />
+    <ClInclude Include="BoardPadsManager.h" />
+    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="DodgeComponent.h" />
+    <ClInclude Include="DodgeManager.h" />
+    <ClInclude Include="DodgeMinigame.h" />
+    <ClInclude Include="message_RC.h" />
+    <ClInclude Include="PodiumState.h" />
+    <ClInclude Include="RaceMinigame.h" />
+    <ClInclude Include="RulesState.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="Spinner.h" />
+    <ClInclude Include="SpinnerManager.h" />
+    <ClInclude Include="SpinnerState.h" />
+    <ClInclude Include="Transformable.h" />
+    <ClInclude Include="BasicKBCtrlComponent.h" />
+    <ClInclude Include="BasicMotionPhysics.h" />
+    <ClInclude Include="BlockPong.h" />
+    <ClInclude Include="BoardBee.h" />
+    <ClInclude Include="BoardBeesManager.h" />
+    <ClInclude Include="boardDebug_IC.h" />
+    <ClInclude Include="BoardDice.h" />
+    <ClInclude Include="BoardDicesManager.h" />
+    <ClInclude Include="BoardPlayersManager.h" />
+    <ClInclude Include="BoardSquaresManager.h" />
+    <ClInclude Include="BoardState.h" />
+    <ClInclude Include="BoardSquare.h" />
+    <ClInclude Include="ButtonInputComponent.h" />
+    <ClInclude Include="checkML.h" />
+    <ClInclude Include="ControlsState.h" />
+    <ClInclude Include="CreditsState.h" />
+    <ClInclude Include="DemoMinigame.h" />
+    <ClInclude Include="EntityComponent.h" />
+    <ClInclude Include="DemoActor.h" />
+    <ClInclude Include="GoodTimer.h" />
+    <ClInclude Include="ImageRepeatRender.h" />
+    <ClInclude Include="jsonReader.h" />
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="GamePadComponent.h" />
+    <ClInclude Include="MenuState.h" />
+    <ClInclude Include="PatrolPhysics.h" />
+    <ClInclude Include="PlatformGameComponent.h" />
+    <ClInclude Include="PlatformManager.h" />
+    <ClInclude Include="PlatformMinigame.h" />
+    <ClInclude Include="PongManager.h" />
+    <ClInclude Include="ShapeRenderer.h" />
+    <ClInclude Include="SumoManager.h" />
+    <ClInclude Include="SumoMiniGame.h" />
+    <ClInclude Include="EndState.h" />
+    <ClInclude Include="FileFormatError.h" />
+    <ClInclude Include="FileNotFoundError.h" />
+    <ClInclude Include="FillRectRenderer.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="GameComponent.h" />
+    <ClInclude Include="GameInputComponent.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameRenderComponent.h" />
+    <ClInclude Include="GameUpdateComponent.h" />
+    <ClInclude Include="Listener.h" />
+    <ClInclude Include="Emitter.h" />
+    <ClInclude Include="Messages.h" />
+    <ClInclude Include="Physical.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GameStateMachine.h" />
+    <ClInclude Include="ImageRenderer.h" />
+    <ClInclude Include="EntityInputComponent.h" />
+    <ClInclude Include="MainMenuState.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="Paddle.h" />
+    <ClInclude Include="PaddlePhysicsComponent.h" />
+    <ClInclude Include="PauseState.h" />
+    <ClInclude Include="EntityUpdateComponent.h" />
+    <ClInclude Include="MiniGameState.h" />
+    <ClInclude Include="BoardPlayer.h" />
+    <ClInclude Include="PongMiniGame.h" />
+    <ClInclude Include="RectCollisionsComponent.h" />
+    <ClInclude Include="EntityRenderComponent.h" />
+    <ClInclude Include="Resources.h" />
+    <ClInclude Include="SDLError.h" />
+    <ClInclude Include="SDLGame.h" />
+    <ClInclude Include="sdl_includes.h" />
+    <ClInclude Include="Simulator.h" />
+    <ClInclude Include="SkeletonRenderer.h" />
+    <ClInclude Include="SoundEffect.h" />
+    <ClInclude Include="SpriteSheetRenderer.h" />
+    <ClInclude Include="SumoGameComponent.h" />
+    <ClInclude Include="SumoPlayer.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Value_RC.h" />
+    <ClInclude Include="Vector2D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Activable.cpp" />
+    <ClCompile Include="AnimationRenderer.cpp" />
+    <ClCompile Include="Apple.cpp" />
+    <ClCompile Include="AppleController.cpp" />
+    <ClCompile Include="AppleMiniGame.cpp" />
+    <ClCompile Include="ApplePlayer.cpp" />
+    <ClCompile Include="ApplePlayerController.cpp" />
+    <ClCompile Include="ApplesManager.cpp" />
+    <ClCompile Include="AppleTimer.cpp" />
+    <ClCompile Include="AppleTree.cpp" />
+    <ClCompile Include="AxisInputComponent.cpp" />
+    <ClCompile Include="BackgroundObject.cpp" />
+    <ClCompile Include="BallPhysicsComponent.cpp" />
+    <ClCompile Include="ballPong.cpp" />
+    <ClCompile Include="BoardPadsManager.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="DodgeComponent.cpp" />
+    <ClCompile Include="DodgeManager.cpp" />
+    <ClCompile Include="DodgeMiniGame.cpp" />
+    <ClCompile Include="message_RC.cpp" />
+    <ClCompile Include="PodiumState.cpp" />
+    <ClCompile Include="RaceMinigame.cpp" />
+    <ClCompile Include="RulesState.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="Spinner.cpp" />
+    <ClCompile Include="SpinnerManager.cpp" />
+    <ClCompile Include="SpinnerState.cpp" />
+    <ClCompile Include="Transformable.cpp" />
+    <ClCompile Include="BasicKBCtrlComponent.cpp" />
+    <ClCompile Include="BasicMotionPhysics.cpp" />
+    <ClCompile Include="BlockPong.cpp" />
+    <ClCompile Include="BoardBee.cpp" />
+    <ClCompile Include="BoardBeesManager.cpp" />
+    <ClCompile Include="boardDebug_IC.cpp" />
+    <ClCompile Include="BoardDice.cpp" />
+    <ClCompile Include="BoardDicesManager.cpp" />
+    <ClCompile Include="BoardPlayersManager.cpp" />
+    <ClCompile Include="BoardSquaresManager.cpp" />
+    <ClCompile Include="BoardState.cpp" />
+    <ClCompile Include="BoardSquare.cpp" />
+    <ClCompile Include="ButtonInputComponent.cpp" />
+    <ClCompile Include="ControlsState.cpp" />
+    <ClCompile Include="CreditsState.cpp" />
+    <ClCompile Include="DemoMinigame.cpp" />
+    <ClCompile Include="EntityComponent.cpp" />
+    <ClCompile Include="DemoActor.cpp" />
+    <ClCompile Include="GoodTimer.cpp" />
+    <ClCompile Include="ImageRepeatRender.cpp" />
+    <ClCompile Include="jsoncpp.cpp" />
+    <ClCompile Include="jsonReader.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="MenuState.cpp" />
+    <ClCompile Include="Messages.cpp" />
+    <ClCompile Include="GamePadComponent.cpp" />
+    <ClCompile Include="PatrolPhysics.cpp" />
+    <ClCompile Include="PlatformGameComponent.cpp" />
+    <ClCompile Include="PlatformManager.cpp" />
+    <ClCompile Include="PlatformMinigame.cpp" />
+    <ClCompile Include="PongManager.cpp" />
+    <ClCompile Include="ShapeRenderer.cpp" />
+    <ClCompile Include="SumoManager.cpp" />
+    <ClCompile Include="SumoMiniGame.cpp" />
+    <ClCompile Include="EndState.cpp" />
+    <ClCompile Include="FillRectRenderer.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="GameComponent.cpp" />
+    <ClCompile Include="GameInputComponent.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameRenderComponent.cpp" />
+    <ClCompile Include="GameUpdateComponent.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="Emitter.cpp" />
+    <ClCompile Include="Physical.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="GameStateMachine.cpp" />
+    <ClCompile Include="ImageRenderer.cpp" />
+    <ClCompile Include="EntityInputComponent.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenuState.cpp" />
+    <ClCompile Include="MiniGameState.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="Paddle.cpp" />
+    <ClCompile Include="PaddlePhysicsComponent.cpp" />
+    <ClCompile Include="PauseState.cpp" />
+    <ClCompile Include="EntityUpdateComponent.cpp" />
+    <ClCompile Include="BoardPlayer.cpp" />
+    <ClCompile Include="PongMiniGame.cpp" />
+    <ClCompile Include="RectCollisionsComponent.cpp" />
+    <ClCompile Include="EntityRenderComponent.cpp" />
+    <ClCompile Include="Resources.cpp" />
+    <ClCompile Include="SDLGame.cpp" />
+    <ClCompile Include="Simulator.cpp" />
+    <ClCompile Include="SkeletonRenderer.cpp" />
+    <ClCompile Include="SoundEffect.cpp" />
+    <ClCompile Include="SpriteSheetRenderer.cpp" />
+    <ClCompile Include="SumoGameComponent.cpp" />
+    <ClCompile Include="SumoPlayer.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Value_RC.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{28A4C5CD-307A-4FE6-81E4-4CE1F1E49AB4}</ProjectGuid>
+    <RootNamespace>Mad_Code</RootNamespace>
+    <ProjectName>Mad_Code</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Mad_Game.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Mad_Game.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)SDL2_ttf-2.0.14\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Mad_Diggers\Mad_Game\Mad_Code\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

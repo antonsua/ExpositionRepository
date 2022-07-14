@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Universidad\5 Quinto\2.Proyecto3\Github\Proyecto-3\WeirdEngine\Dependencias\cegui\cegui\src\XMLParserModules\TinyXML\XMLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Universidad\5 Quinto\2.Proyecto3\Github\Proyecto-3\WeirdEngine\Dependencias\cegui\cegui\src\XMLParserModules\TinyXML\XMLParserModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Universidad\5 Quinto\2.Proyecto3\Github\Proyecto-3\WeirdEngine\Dependencias\cegui\cegui\include\CEGUI\XMLParserModules\TinyXML\XMLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Universidad\5 Quinto\2.Proyecto3\Github\Proyecto-3\WeirdEngine\Dependencias\cegui\cegui\include\CEGUI\XMLParserModules\TinyXML\XMLParserModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Universidad\5 Quinto\2.Proyecto3\Github\Proyecto-3\WeirdEngine\Dependencias\cegui\cegui\src\XMLParserModules\TinyXML\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CC5D01D7-F391-3097-8185-E680348AFD2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1AE052E2-7FEB-3843-89D3-97FF21028B45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="build">
+      <UniqueIdentifier>{EC09E29F-1B98-1D44-8725-E47FC3EFC6ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{AF3DD1E6-3449-9441-916A-1B5E8FE32FED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\SerializeDemo">
+      <UniqueIdentifier>{8BC65105-651A-DB48-8BFC-07D5F733F9F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Demos\SerializeDemo\SerializeDemo.h">
+      <Filter>Demos\SerializeDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Demos\SerializeDemo\main.cpp">
+      <Filter>Demos\SerializeDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\SerializeDemo\SerializeDemo.cpp">
+      <Filter>Demos\SerializeDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\SerializeDemo\Win32SerializeDemo.cpp">
+      <Filter>Demos\SerializeDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\build\bullet.rc">
+      <Filter>build</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

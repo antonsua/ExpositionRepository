@@ -1,0 +1,9 @@
+{
+    "RenderDrawColor" : [0,0,0,255],
+    "Player1Keys" : {
+       "left" : "SDLK_a",
+       "up" : "SDLK_w",
+       "right" : "SDLK_d",
+       "down" : "SDLK_a"
+    }
+ }

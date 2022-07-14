@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="build">
+      <UniqueIdentifier>{58336DBC-C64A-594E-956B-C060FE32245A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{256927F4-79AB-A945-A21E-6275E7185A2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\ConcaveRaycastDemo">
+      <UniqueIdentifier>{538908C0-90C5-1F4E-A6D3-068B2421EA89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Demos\ConcaveRaycastDemo\ConcaveRaycastDemo.h">
+      <Filter>Demos\ConcaveRaycastDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Demos\ConcaveRaycastDemo\ConcaveRaycastDemo.cpp">
+      <Filter>Demos\ConcaveRaycastDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\ConcaveRaycastDemo\main.cpp">
+      <Filter>Demos\ConcaveRaycastDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\build\bullet.rc">
+      <Filter>build</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

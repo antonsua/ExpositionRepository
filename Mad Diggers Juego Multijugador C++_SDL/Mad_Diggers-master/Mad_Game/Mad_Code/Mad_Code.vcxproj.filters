@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\SDLGame">
+      <UniqueIdentifier>{713de308-808b-4b2e-8d90-bb2b9cb76c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\SDLGame\Resources">
+      <UniqueIdentifier>{1d5eaeb3-2978-40f1-b943-1b4ac3b9297c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameObject">
+      <UniqueIdentifier>{2d0944c2-1a08-4b64-8955-fd4fa7cb53b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject">
+      <UniqueIdentifier>{45e5a7f8-8656-4ae1-84ec-5254d12fcc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\SDLGame">
+      <UniqueIdentifier>{45a848b2-bd39-4f04-b0a8-58097411c446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\SDLGame\Resources">
+      <UniqueIdentifier>{3bc77c4f-ff47-4834-ab43-e2cce777c311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\States">
+      <UniqueIdentifier>{9f9be029-63f3-4771-94d3-de60e8bb1758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\States\Minigames">
+      <UniqueIdentifier>{e4048df6-4fe6-4bca-bc6c-05ecc3450289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\States">
+      <UniqueIdentifier>{2b585ecf-30c6-44d1-a8fd-9ede97c7d8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\States\Menu">
+      <UniqueIdentifier>{55a47aa7-fff5-4c47-9f8f-c299cdd46825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\States\Minigames">
+      <UniqueIdentifier>{c6415624-752a-4bf1-b839-89f4310e49cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameObject\Minigame">
+      <UniqueIdentifier>{576c95ce-d595-42d2-9938-24e9513bc024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameObject\Minigame\1 MiniSumo">
+      <UniqueIdentifier>{9cff3d9a-b142-4b7c-8dfe-2f4eac238f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameObject\Board">
+      <UniqueIdentifier>{9a07881c-58c1-4556-87d9-26bf0f3f781e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameObject\Minigame\2 Pong">
+      <UniqueIdentifier>{46044404-8a70-45f4-b13e-bd4b6a264d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\SDLGame\Exceptions">
+      <UniqueIdentifier>{4cde96e7-5218-4ec7-9aea-4f959a54afcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\SDLGame\Misc">
+      <UniqueIdentifier>{da2c3633-308c-4137-bb8e-78a603a9ac7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\EntityComponents">
+      <UniqueIdentifier>{d115fe24-b5dd-4fc3-ab37-c7efd39cce9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\EntityComponents\Input">
+      <UniqueIdentifier>{3ff1f5cb-bb70-435e-8bd9-2087d53f9dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\EntityComponents\Update">
+      <UniqueIdentifier>{385d3f08-800f-4c69-855d-f6bf7cce380d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\EntityComponents\Render">
+      <UniqueIdentifier>{0af0c66a-195c-4e2c-8260-6016aac4de8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\Board">
+      <UniqueIdentifier>{573f6f33-3a7b-4ea2-bf27-d0a75da88fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\_base">
+      <UniqueIdentifier>{d0d65f86-4018-45ae-8928-a12789cd88f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\Minigames">
+      <UniqueIdentifier>{c829557b-eecf-4137-a038-6aab05193dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\Minigames\1 MiniSumo">
+      <UniqueIdentifier>{a00ff331-3dd3-48af-b503-694caecc2312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\Minigames\2 Pong">
+      <UniqueIdentifier>{fdeb343a-7d0a-403a-86ed-f265bedd2c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\Managers">
+      <UniqueIdentifier>{353778d4-c386-472e-8f64-c83cd4312593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\EntityComponents">
+      <UniqueIdentifier>{cf023ab2-489d-41ff-ba9d-508c708a1900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\EntityComponents\Input">
+      <UniqueIdentifier>{1e4c72b4-3a6a-436d-916e-3e3bb0dfcb9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\EntityComponents\Render">
+      <UniqueIdentifier>{15f7c738-bc24-4678-8de6-aa3e05d51173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\EntityComponents\Physics">
+      <UniqueIdentifier>{deb171b4-ebd0-4d70-ab9a-2403bd2cf840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameComponents">
+      <UniqueIdentifier>{bb556755-e55e-46b4-a599-08e85260abe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameComponents\Input">
+      <UniqueIdentifier>{3893e50c-9e1c-4d20-b04e-ea32fec743a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameComponents\Render">
+      <UniqueIdentifier>{a28e5fe1-15e9-40d9-a0df-4c4569d2b549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameComponents\Update">
+      <UniqueIdentifier>{fb2dca88-81fe-4302-9ef5-bf7ce11f7c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameObject\_base">
+      <UniqueIdentifier>{3c9361e6-a391-406c-b3a8-ffa87493df48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameObject\Managers">
+      <UniqueIdentifier>{1792be55-292d-4d8e-a3be-98693aade2d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameObject\Menus">
+      <UniqueIdentifier>{f9052f67-3b06-4ab2-beca-c2a92101e854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\States\Minigames\_base">
+      <UniqueIdentifier>{ad659c53-0409-41a7-aeaf-3baa0115415d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\Menus">
+      <UniqueIdentifier>{7e038fbb-b86f-426f-87ff-e2030b959abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\Board\Managers">
+      <UniqueIdentifier>{f50c9abb-119a-4533-8b5e-952e7cf1dd30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\GameComponents">
+      <UniqueIdentifier>{7e0ab854-2eb8-4aed-b0f8-96d31508e6e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\GameComponents\Input">
+      <UniqueIdentifier>{4338122e-9d33-4b6f-b326-d3395abd1832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\GameComponents\Update">
+      <UniqueIdentifier>{79d83bbc-69fc-4241-86bb-fc0f2b0e3672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\GameComponents\Render">
+      <UniqueIdentifier>{50668ce1-ff8f-41bf-9aa8-c0f4bf658509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\Board\GameComponents">
+      <UniqueIdentifier>{07d7d7b4-a025-4c09-bbaf-ef36b845944e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Menu">
+      <UniqueIdentifier>{48e95188-f294-4f0c-8710-8332e4fb6da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\GameObject\Minigame\3 AppleCollector">
+      <UniqueIdentifier>{63bb9558-011c-40a0-b9a0-04d83ca55252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\Minigames\3 AppleCollector">
+      <UniqueIdentifier>{fc27da32-9e2d-4929-b03d-301316006b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObject\Board\Spinner">
+      <UniqueIdentifier>{b992788a-78bf-4fde-91d1-a35394ccb989}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Archivos de encabezado\SDLGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLGame.h">
+      <Filter>Archivos de encabezado\SDLGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Archivos de encabezado\SDLGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Archivos de encabezado\SDLGame\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>Archivos de encabezado\SDLGame\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Archivos de encabezado\SDLGame\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Archivos de encabezado\SDLGame\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonRenderer.h">
+      <Filter>Archivos de encabezado\EntityComponents\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRenderer.h">
+      <Filter>Archivos de encabezado\EntityComponents\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="FillRectRenderer.h">
+      <Filter>Archivos de encabezado\EntityComponents\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicKBCtrlComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicMotionPhysics.h">
+      <Filter>Archivos de encabezado\EntityComponents\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLError.h">
+      <Filter>Archivos de encabezado\SDLGame\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Archivos de encabezado\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateMachine.h">
+      <Filter>Archivos de encabezado\States</Filter>
+    </ClInclude>
+    <ClInclude Include="EndState.h">
+      <Filter>Archivos de encabezado\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Archivos de encabezado\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Archivos de encabezado\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheetRenderer.h">
+      <Filter>Archivos de encabezado\EntityComponents\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardState.h">
+      <Filter>Archivos de encabezado\States</Filter>
+    </ClInclude>
+    <ClInclude Include="checkML.h">
+      <Filter>Archivos de encabezado\SDLGame\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl_includes.h">
+      <Filter>Archivos de encabezado\SDLGame\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardSquare.h">
+      <Filter>Archivos de encabezado\GameObject\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNotFoundError.h">
+      <Filter>Archivos de encabezado\SDLGame\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormatError.h">
+      <Filter>Archivos de encabezado\SDLGame\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="SumoPlayer.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\1 MiniSumo</Filter>
+    </ClInclude>
+    <ClInclude Include="SumoGameComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Paddle.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\2 Pong</Filter>
+    </ClInclude>
+    <ClInclude Include="ballPong.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\2 Pong</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockPong.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\2 Pong</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisInputComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PaddlePhysicsComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="BallPhysicsComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCollisionsComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="PongMiniGame.h">
+      <Filter>Archivos de encabezado\States\Minigames</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityInputComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityUpdateComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityRenderComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SumoGameComponent.h">
+      <Filter>Archivos de encabezado\Components\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Archivos de encabezado\GameObject\_base</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Archivos de encabezado\GameObject\_base</Filter>
+    </ClInclude>
+    <ClInclude Include="Physical.h">
+      <Filter>Archivos de encabezado\GameObject\_base</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Archivos de encabezado\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitter.h">
+      <Filter>Archivos de encabezado\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Messages.h">
+      <Filter>Archivos de encabezado\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponent.h">
+      <Filter>Archivos de encabezado\GameObject\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInputComponent.h">
+      <Filter>Archivos de encabezado\GameObject\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderComponent.h">
+      <Filter>Archivos de encabezado\GameObject\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUpdateComponent.h">
+      <Filter>Archivos de encabezado\GameObject\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SumoMiniGame.h">
+      <Filter>Archivos de encabezado\States\Minigames</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoMinigame.h">
+      <Filter>Archivos de encabezado\States\Minigames\_base</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGameState.h">
+      <Filter>Archivos de encabezado\States\Minigames\_base</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoActor.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardPlayer.h">
+      <Filter>Archivos de encabezado\GameObject\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Value_RC.h">
+      <Filter>Archivos de encabezado\EntityComponents\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Archivos de encabezado\GameObject\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Activable.h">
+      <Filter>Archivos de encabezado\GameObject\_base</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardSquaresManager.h">
+      <Filter>Archivos de encabezado\GameObject\Board\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardPlayersManager.h">
+      <Filter>Archivos de encabezado\GameObject\Board\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.h">
+      <Filter>Archivos de encabezado\GameObject\Board\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="boardDebug_IC.h">
+      <Filter>Archivos de encabezado\GameObject\Board\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePadComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonInputComponent.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonReader.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="PongManager.h">
+      <Filter>Archivos de encabezado\GameObject\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardDicesManager.h">
+      <Filter>Archivos de encabezado\GameObject\Board\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardDice.h">
+      <Filter>Archivos de encabezado\GameObject\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleMiniGame.h">
+      <Filter>Archivos de encabezado\States\Minigames</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundObject.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\1 MiniSumo</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplePlayer.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\3 AppleCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="Apple.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\3 AppleCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleTree.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\3 AppleCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplePlayerController.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\3 AppleCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplesManager.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\3 AppleCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleController.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\3 AppleCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleTimer.h">
+      <Filter>Archivos de encabezado\GameObject\Minigames\3 AppleCollector</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditsState.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="SumoManager.h">
+      <Filter>Archivos de encabezado\GameObject\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformMinigame.h">
+      <Filter>Archivos de encabezado\States\Minigames</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformGameComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformManager.h">
+      <Filter>Archivos de encabezado\GameObject\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GoodTimer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="PatrolPhysics.h">
+      <Filter>Archivos de encabezado\EntityComponents\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlsState.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRepeatRender.h">
+      <Filter>Archivos de encabezado\EntityComponents\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardBeesManager.h">
+      <Filter>Archivos de encabezado\GameObject\Board\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardBee.h">
+      <Filter>Archivos de encabezado\GameObject\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformable.h">
+      <Filter>Archivos de encabezado\GameObject\_base</Filter>
+    </ClInclude>
+    <ClInclude Include="PodiumState.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Archivos de encabezado\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesState.h">
+      <Filter>Archivos de encabezado\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationRenderer.h">
+      <Filter>Archivos de encabezado\EntityComponents\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeRenderer.h">
+      <Filter>Archivos de encabezado\EntityComponents\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="message_RC.h">
+      <Filter>Archivos de encabezado\EntityComponents\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RaceMinigame.h">
+      <Filter>Archivos de encabezado\States\Minigames</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeMinigame.h">
+      <Filter>Archivos de encabezado\States\Minigames</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeManager.h">
+      <Filter>Archivos de encabezado\GameObject\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Archivos de encabezado\GameObject\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeComponent.h">
+      <Filter>Archivos de encabezado\EntityComponents\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinnerState.h">
+      <Filter>Archivos de encabezado\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinnerManager.h">
+      <Filter>Archivos de encabezado\GameObject\Board\Spinner</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardPadsManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Spinner.h">
+      <Filter>Archivos de encabezado\GameObject\Board\Spinner</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDLGame.cpp">
+      <Filter>Archivos de código fuente\SDLGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Archivos de código fuente\SDLGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Archivos de código fuente\SDLGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Archivos de código fuente\SDLGame\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>Archivos de código fuente\SDLGame\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Archivos de código fuente\SDLGame\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Archivos de código fuente\SDLGame\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonRenderer.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicKBCtrlComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicMotionPhysics.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRenderer.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="FillRectRenderer.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Archivos de código fuente\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateMachine.cpp">
+      <Filter>Archivos de código fuente\States</Filter>
+    </ClCompile>
+    <ClCompile Include="EndState.cpp">
+      <Filter>Archivos de código fuente\States\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Archivos de código fuente\States\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Archivos de código fuente\States\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheetRenderer.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardState.cpp">
+      <Filter>Archivos de código fuente\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardSquare.cpp">
+      <Filter>Archivos de código fuente\GameObject\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="SumoPlayer.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\1 MiniSumo</Filter>
+    </ClCompile>
+    <ClCompile Include="SumoGameComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockPong.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\2 Pong</Filter>
+    </ClCompile>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\2 Pong</Filter>
+    </ClCompile>
+    <ClCompile Include="ballPong.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\2 Pong</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisInputComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="BallPhysicsComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PaddlePhysicsComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="RectCollisionsComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PongMiniGame.cpp">
+      <Filter>Archivos de código fuente\States\Minigames</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponent.cpp">
+      <Filter>Archivos de código fuente\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInputComponent.cpp">
+      <Filter>Archivos de código fuente\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRenderComponent.cpp">
+      <Filter>Archivos de código fuente\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUpdateComponent.cpp">
+      <Filter>Archivos de código fuente\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityInputComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityUpdateComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRenderComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Archivos de código fuente\GameObject\_base</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Archivos de código fuente\GameObject\_base</Filter>
+    </ClCompile>
+    <ClCompile Include="Physical.cpp">
+      <Filter>Archivos de código fuente\GameObject\_base</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>Archivos de código fuente\GameObject\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitter.cpp">
+      <Filter>Archivos de código fuente\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>Archivos de código fuente\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SumoGameComponent.cpp">
+      <Filter>Archivos de código fuente\Components\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGameState.cpp">
+      <Filter>Archivos de código fuente\States</Filter>
+    </ClCompile>
+    <ClCompile Include="SumoMiniGame.cpp">
+      <Filter>Archivos de código fuente\States\Minigames</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoMinigame.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoActor.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardPlayer.cpp">
+      <Filter>Archivos de código fuente\GameObject\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardSquaresManager.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Value_RC.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Activable.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardPlayersManager.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="boardDebug_IC.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Messages.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePadComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonInputComponent.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SumoManager.cpp">
+      <Filter>Archivos de código fuente\GameObject\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonReader.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="PongManager.cpp">
+      <Filter>Archivos de código fuente\GameObject\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardDicesManager.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardDice.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleMiniGame.cpp">
+      <Filter>Archivos de código fuente\States\Minigames</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundObject.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\1 MiniSumo</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplePlayer.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\3 AppleCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="Apple.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\3 AppleCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleTree.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\3 AppleCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplePlayerController.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\3 AppleCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplesManager.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\3 AppleCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleController.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\3 AppleCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleTimer.cpp">
+      <Filter>Archivos de código fuente\GameObject\Minigame\3 AppleCollector</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeRenderer.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditsState.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardBeesManager.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardBee.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformGameComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformMinigame.cpp">
+      <Filter>Archivos de código fuente\States\Minigames</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformManager.cpp">
+      <Filter>Archivos de código fuente\GameObject\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GoodTimer.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="PatrolPhysics.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationRenderer.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlsState.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRepeatRender.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformable.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="PodiumState.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Archivos de código fuente\States\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesState.cpp">
+      <Filter>Archivos de código fuente\States\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="message_RC.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinnerManager.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinnerState.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="RaceMinigame.cpp">
+      <Filter>Archivos de código fuente\States\Minigames</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeMiniGame.cpp">
+      <Filter>Archivos de código fuente\States\Minigames</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeManager.cpp">
+      <Filter>Archivos de código fuente\GameObject\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Archivos de código fuente\GameObject\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeComponent.cpp">
+      <Filter>Archivos de código fuente\EntityComponents\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardPadsManager.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Spinner.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

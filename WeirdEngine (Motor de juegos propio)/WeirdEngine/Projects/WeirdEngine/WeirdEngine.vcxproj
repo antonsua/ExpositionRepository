@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\AddCameraToSceneComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\AttachCameraToEntComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Component.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\ComponentFactory.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Container.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\C_Factory.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\EntityC.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\FactoriesGestor.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\FactoryRegister.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\InputComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\SoundComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Messages_decl.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Messages_defs.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Observer.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\PhysicsComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\RenderComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\RotateInputComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\TestComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\TransformComponent.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Utilities\Vector3.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Utilities\Vector4.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\WEManager.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\Scene.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\TimeManager.h" />
+    <ClInclude Include="..\..\src\WeirdEngine\Header Files\weirdTimer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\AddCameraToSceneComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\AttachCameraToEntComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Component.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Container.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\EntityC.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\FactoriesGestor.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\FactoryRegister.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\InputComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\SoundComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Observer.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\PhysicsComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\RenderComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\RotateInputComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\TestComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\TransformComponent.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Vector3.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Vector4.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\WEManager.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\Scene.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\TimeManager.cpp" />
+    <ClCompile Include="..\..\src\WeirdEngine\Source Files\weirdTimer.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{447EBEB4-B570-4784-9484-F49FBEAB39D4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Application</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>WeirdEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)exes</OutDir>
+    <TargetName>$(ProjectName)_debug</TargetName>
+    <IntDir>$(SolutionDir)\inter\$(Platform)\$(Configuration)\$(ProjectName)</IntDir>
+    <IncludePath>$(SolutionDir)src\Application2\Header Files;$(SolutionDir)src\Application\Header Files;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)build\libs\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)_debug</TargetName>
+    <IntDir>$(SolutionDir)\inter\$(Platform)\$(Configuration)\$(ProjectName)</IntDir>
+    <IncludePath>$(SolutionDir)src\DataManager\Header Files;$(SolutionDir)Dependencias\OIS\includes;$(SolutionDir)Dependencias\externalLibs;$(SolutionDir)src\AudioSystem\Header Files;$(SolutionDir)src\RenderSystem\Header Files;$(SolutionDir)src\Input\Header Files;$(SolutionDir)src\WeirdEngine\Header Files;$(SolutionDir)src\PhysicsEngine\Header Files;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencias\OIS\Build\$(Configuration);$(SolutionDir)Dependencias\ogre-1.12.5\Build\lib\$(Configuration);$(SolutionDir)build\libs\x64\$(Configuration);$(SolutionDir)Dependencias\bullet\lib\$(Configuration);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)exes</OutDir>
+    <IntDir>$(SolutionDir)\inter\$(Platform)\$(Configuration)\$(ProjectName)</IntDir>
+    <IncludePath>$(SolutionDir)src\Application2\Header Files;$(SolutionDir)src\Application\Header Files;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)build\libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\inter\$(Platform)\$(Configuration)\$(ProjectName)</IntDir>
+    <IncludePath>$(SolutionDir)src\DataManager\Header Files;$(SolutionDir)Dependencias\OIS\includes;$(SolutionDir)Dependencias\externalLibs;$(SolutionDir)src\AudioSystem\Header Files;$(SolutionDir)src\RenderSystem\Header Files;$(SolutionDir)src\Input\Header Files;$(SolutionDir)src\WeirdEngine\Header Files;$(SolutionDir)src\PhysicsEngine\Header Files;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencias\OIS\Build\$(Configuration);$(SolutionDir)Dependencias\ogre-1.12.5\Build\lib\$(Configuration);$(SolutionDir)build\libs\x64\$(Configuration);$(SolutionDir)Dependencias\bullet\lib\$(Configuration);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencias\ogre-1.12.4\Build\include;$(SolutionDir)\Dependencias\ogre-1.12.4\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencias\OIS\includes;$(SolutionDir)Dependencias\ogre-1.12.5\Build\include;$(SolutionDir)Dependencias\ogre-1.12.5\OgreMain\include;$(SolutionDir)Dependencias\ogre-1.12.5\Build\SDL2-2.0.10\include;$(SolutionDir)Dependencias\cegui\cegui\include;$(SolutionDir)Dependencias\bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>OgreMain_d.lib;DataManager.lib;OIS_d.lib;Input.lib;PhysicsEngine_debug.lib;RenderSystem_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencias\ogre-1.12.4\Build\include;$(SolutionDir)\Dependencias\ogre-1.12.4\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencias\OIS\includes;$(SolutionDir)Dependencias\ogre-1.12.5\Build\include;$(SolutionDir)Dependencias\ogre-1.12.5\OgreMain\include;$(SolutionDir)Dependencias\ogre-1.12.5\Build\SDL2-2.0.10\include;$(SolutionDir)Dependencias\cegui\cegui\include;$(SolutionDir)Dependencias\bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>OgreMain.lib;DataManager.lib;OIS.lib;Input.lib;PhysicsEngine.lib;RenderSystem.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

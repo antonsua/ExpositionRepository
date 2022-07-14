@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MovilesP1.iml" filepath="$PROJECT_DIR$/.idea/modules/MovilesP1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidStartPoint/MovilesP1.androidStartPoint.iml" filepath="$PROJECT_DIR$/.idea/modules/androidStartPoint/MovilesP1.androidStartPoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/engineAndroid/MovilesP1.engineAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/engineAndroid/MovilesP1.engineAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/engineInterface/MovilesP1.engineInterface.iml" filepath="$PROJECT_DIR$/.idea/modules/engineInterface/MovilesP1.engineInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/enginePC/MovilesP1.enginePC.iml" filepath="$PROJECT_DIR$/.idea/modules/enginePC/MovilesP1.enginePC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logica/MovilesP1.logica.iml" filepath="$PROJECT_DIR$/.idea/modules/logica/MovilesP1.logica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pcStartPoint/MovilesP1.pcStartPoint.iml" filepath="$PROJECT_DIR$/.idea/modules/pcStartPoint/MovilesP1.pcStartPoint.iml" />
+    </modules>
+  </component>
+</project>

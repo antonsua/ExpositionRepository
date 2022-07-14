@@ -1,0 +1,8 @@
+{
+  "_PAD_HEIGHT_": 50,
+  "_PAD_WIDTH_": 10,
+  "_PAD_SPEED_":  4,
+  "_BORDER_": [ 160, 60 ],
+  "_MAX_SCORE_": 5,
+  "_BALL_SIZE_":  10
+}
